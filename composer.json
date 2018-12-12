@@ -1,0 +1,29 @@
+{
+    "name": "samuel-semegne/laravel-blade-owner-directive",
+    "description": "A Blade directive '@owner' that checks whether every route-binded-model belongs to the current user.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Samuel Semegne",
+            "email": "samsemegne@gmail.com",
+            "homepage": "http://samuelsemegne.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SamuelSemegne\\LaravelBladeOwnerDirective\\BladeOwnerDirectiveProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": { "SamuelSemegne\\LaravelBladeOwnerDirective\\": "src/" }
+    },
+    "require": {
+        "laravel/framework": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*|5.7.*",
+        "samuel-semegne/laravel-touch-thing-gate": "1.0.*"
+    }
+}
