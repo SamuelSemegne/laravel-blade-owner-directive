@@ -4,6 +4,7 @@ namespace SamuelSemegne\LaravelBladeOwnerDirective;
 
 use Gate;
 use Blade;
+use Request;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\ServiceProvider;
 
